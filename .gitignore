@@ -1,0 +1,36 @@
+# Frontend - counselling directory
+
+# Ignore node_modules folder where npm packages are stored
+counselling/node_modules/
+
+# Ignore build output or Vite config-related files (if applicable)
+dist/
+.vite/
+
+# Ignore environment variables in front-end (if you store any here)
+counselling/.env
+
+# Backend - CounsellingBackend directory
+
+# Ignore IDE configurations (JetBrains IDEs like IntelliJ, WebStorm, etc.)
+CounsellingBackend/.idea/
+
+# Ignore Maven wrapper files and folder
+CounsellingBackend/.mvn/
+CounsellingBackend/mvnw
+CounsellingBackend/mvnw.cmd
+
+# Ignore Maven target directory where compiled code resides
+CounsellingBackend/target/
+
+# Ignore environment variables for backend
+CounsellingBackend/.env
+
+# General Gitignore Rules
+
+# Ignore system-specific files like DS_Store, Thumbs.db, etc.
+.DS_Store
+Thumbs.db
+
+# Ignore npm debug logs
+npm-debug.log*
